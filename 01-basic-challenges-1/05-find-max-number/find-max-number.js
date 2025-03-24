@@ -4,7 +4,7 @@ function findMaxNumber(arr) {
 
   let maxNumber = arr[0];
 
-  // ===== USING FOR LOOP =====
+  // ===== USING FOR LOOP (not cheating) =====
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] > maxNumber) {
       maxNumber = arr[i];
